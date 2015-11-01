@@ -27,6 +27,6 @@
     "lib"
   ],
   "dependencies": {
-    "jquery": ">= 1.7.2"
+    "jquery-validation": ">= 1.11.1"
   }
 }
