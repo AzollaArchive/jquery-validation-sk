@@ -1,0 +1,58 @@
+{
+  "name": "jquery-validation-sk",
+  "title": "jQuery Validation Plugin ShaneKing Style",
+  "description": "Client-side form validation sk style",
+  "version": "1.0.0",
+  "homepage": "http://shaneking.org/c/jquery-validation-sk",
+  "license": "Apache License 2.0",
+  "author": {
+    "name": "ShaneKing",
+    "email": "sk@azolla.org",
+    "url": "http://shaneking.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Azollas/jquery-validation-sk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Azollas/jquery-validation-sk/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache License 2.0",
+      "url": "http://opensource.org/licenses/Apache-2.0"
+    }
+  ],
+  "scripts": {
+    "test": "grunt",
+    "prepublish": "grunt"
+  },
+  "files": [
+    "dist/jquery.validate.sk.css",
+    "dist/jquery.validate.sk.js"
+  ],
+  "main": "dist/jquery.validate.sk.js",
+  "dependencies": {},
+  "devDependencies": {
+    "commitplease": "2.0.0",
+    "grunt": "0.4.4",
+    "grunt-contrib-compress": "0.7.0",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-qunit": "0.4.0",
+    "grunt-contrib-uglify": "0.4.0",
+    "grunt-contrib-watch": "0.6.0",
+    "grunt-jscs": "1.0.0",
+    "grunt-text-replace": "0.3.11"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "forms",
+    "validation",
+    "validate",
+    "ShaneKing",
+    "sk"
+  ]
+}

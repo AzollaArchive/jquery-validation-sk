@@ -1,0 +1,32 @@
+{
+  "name": "jquery-validation-sk",
+  "homepage": "http://shaneking.org/c/jquery-validation-sk",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Azollas/jquery-validation-sk.git"
+  },
+  "authors": [
+    "ShaneKing <sk@azolla.org>"
+  ],
+  "description": "Form validation sk style",
+  "main": "dist/jquery.validate.sk.js",
+  "keywords": [
+    "forms",
+    "validation",
+    "validate",
+    "ShaneKing",
+    "sk"
+  ],
+  "license": "Apache License 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "demo",
+    "lib"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.2"
+  }
+}
