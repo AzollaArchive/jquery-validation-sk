@@ -1,0 +1,7 @@
+$borderColor: #c33;
+$backgroundColor: #fcc;
+
+.jquery-validation-sk_error {
+  border: 1px solid $borderColor !important;
+  background-color: $backgroundColor !important;
+}
