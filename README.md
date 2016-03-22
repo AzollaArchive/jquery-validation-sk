@@ -1,1 +1,1 @@
-# jquery-validation-sk
+# jQuery Validation Plugin ShaneKing Style
