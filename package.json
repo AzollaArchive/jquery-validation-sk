@@ -43,9 +43,10 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-uglify": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-banner": "^0.6.0",
     "jquery-validation": "^1.15.0"
   },
   "keywords": [
