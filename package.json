@@ -23,8 +23,7 @@
     }
   ],
   "scripts": {
-    "test": "grunt",
-    "prepublish": "grunt"
+    "test": "grunt"
   },
   "files": [
     "demo",
