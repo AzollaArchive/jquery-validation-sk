@@ -4,6 +4,7 @@ sudo: false # faster builds
 node_js:
   - "4.0"
 before_install:
+  - apt-get -y install g++
   - npm install -g grunt-cli
 
 install:
