@@ -1,5 +1,5 @@
 language: node_js
-sudo: false # faster builds
+sudo: required # faster builds
 
 node_js:
   - "4.0"
