@@ -1,21 +1,20 @@
 {
   "name": "jquery-validation-sk",
-  "title": "jQuery Validation Plugin ShaneKing Style",
-  "description": "Client-side form validation sk style",
-  "version": "1.0.2",
-  "homepage": "http://shaneking.org/c/jquery-validation-sk",
+  "description": "jQuery Validation Plugin Style for ShaneKing",
+  "version": "1.0.3",
+  "homepage": "https://github.com/ShaneKing/jquery-validation-sk",
   "license": "MIT",
   "author": {
     "name": "ShaneKing",
-    "email": "sk@azolla.org",
+    "email": "github@azolla.org",
     "url": "http://shaneking.org"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Azollas/jquery-validation-sk.git"
+    "url": "git@github.com:ShaneKing/jquery-validation-sk.git"
   },
   "bugs": {
-    "url": "https://github.com/Azollas/jquery-validation-sk/issues"
+    "url": "https://github.com/ShaneKing/jquery-validation-sk/issues"
   },
   "licenses": [
     {
@@ -28,11 +27,16 @@
     "prepublish": "grunt"
   },
   "files": [
-    "dist/jquery.validate.sk.css",
-    "dist/jquery.validate.sk.js"
+    "demo",
+    "dist",
+    "src",
+    "Gruntfile.js",
+    "LICENSE"
   ],
   "main": "dist/jquery.validate.sk.js",
-  "dependencies": {},
+  "dependencies": {
+    "jquery-validation": "^1.15.0"
+  },
   "devDependencies": {
     "commitplease": "^2.3.0",
     "grunt": "^0.4.5",
