@@ -2,7 +2,7 @@ language: node_js
 sudo: false # faster builds
 
 node_js:
-  - "4.0"
+  - "4"
 
 env:
   - CXX=g++-4.8
@@ -14,7 +14,11 @@ addons:
     packages:
       - g++-4.8
 
+install:
+  - rvm install ruby
+
 before_script:
+  - gem install sass
   - npm install -g grunt-cli
   - npm install --dev
 
