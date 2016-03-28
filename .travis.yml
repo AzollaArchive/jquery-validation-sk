@@ -14,13 +14,13 @@ addons:
     packages:
       - g++-4.8
 
-install:
+before_install:
   - rvm install ruby
+  
+#install: default run: npm install
 
 before_script:
   - gem install sass
   - npm install -g grunt-cli
-  - npm install --dev
 
-script:
-  - npm test
+#script: default run: npm test
