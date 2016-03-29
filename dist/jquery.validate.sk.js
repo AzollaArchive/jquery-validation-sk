@@ -1,4 +1,4 @@
-/*! jquery-validation-sk - v1.0.3 - 2016-03-26 */
+/*! jquery-validation-sk - v1.0.3 - 2016-03-28 */
 
 (function ($) {
   'use strict';
