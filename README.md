@@ -14,6 +14,9 @@ More to see [shaneking.org][].
 [![][bowerbadge img]][bowerbadge]
 [![][npmbadge img]][npmbadge]
 
+## Demo
+[demo][Demo]
+
 ## Discussion
 [![][gitter img]][gitter]
 
@@ -45,6 +48,8 @@ ShaneKing is released under [MIT][].
 [bowerbadge img]:https://img.shields.io/bower/v/jquery-validation-sk.svg
 [npmbadge]:https://www.npmjs.com/package/jquery-validation-sk
 [npmbadge img]:https://img.shields.io/npm/v/jquery-validation-sk.svg
+
+[demo]:http://htmlpreview.github.io/?https://github.com/ShaneKing/jquery-validation-sk/blob/mirror/demo/index.html
 
 
 [gitter]:https://gitter.im/ShaneKing/jquery-validation-sk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
